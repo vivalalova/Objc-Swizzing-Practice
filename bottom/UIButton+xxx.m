@@ -10,11 +10,14 @@
 #import <objc/runtime.h>
 @implementation UIButton (xxx)
 
-- (void)awakeFromNib {
-    [super awakeFromNib];
++ (void)load {
+    static dispatch_once_t onceToken;
+    dispatch_once(&onceToken, ^{
+        [UIButton switchInstanceMethodFrom:@selector(touchesBegan:withEvent:)
+                                        To:@selector(replacedTouchesBegan:withEvent:)];
+        
+    });
     
-    [UIButton switchInstanceMethodFrom:@selector(touchesBegan:withEvent:)
-                                    To:@selector(replacedTouchesBegan:withEvent:)];
 }
 
 #pragma mark - Method swizzling

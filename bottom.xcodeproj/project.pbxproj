@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		9E15EE4E1C4816ED005FD5A6 /* UIButton+xxx.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E15EE4D1C4816ED005FD5A6 /* UIButton+xxx.m */; };
+		9E15EE511C48B15C005FD5A6 /* UIViewController+tracking.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E15EE501C48B15C005FD5A6 /* UIViewController+tracking.m */; };
 		9EC872211C476BF10007F6D9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EC872201C476BF10007F6D9 /* main.m */; };
 		9EC872241C476BF10007F6D9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EC872231C476BF10007F6D9 /* AppDelegate.m */; };
 		9EC872271C476BF10007F6D9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EC872261C476BF10007F6D9 /* ViewController.m */; };
@@ -19,6 +20,8 @@
 /* Begin PBXFileReference section */
 		9E15EE4C1C4816ED005FD5A6 /* UIButton+xxx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+xxx.h"; sourceTree = "<group>"; };
 		9E15EE4D1C4816ED005FD5A6 /* UIButton+xxx.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+xxx.m"; sourceTree = "<group>"; };
+		9E15EE4F1C48B15C005FD5A6 /* UIViewController+tracking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+tracking.h"; sourceTree = "<group>"; };
+		9E15EE501C48B15C005FD5A6 /* UIViewController+tracking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+tracking.m"; sourceTree = "<group>"; };
 		9EC8721C1C476BF10007F6D9 /* bottom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bottom.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9EC872201C476BF10007F6D9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9EC872221C476BF10007F6D9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -72,6 +75,8 @@
 				9EC8721F1C476BF10007F6D9 /* Supporting Files */,
 				9E15EE4C1C4816ED005FD5A6 /* UIButton+xxx.h */,
 				9E15EE4D1C4816ED005FD5A6 /* UIButton+xxx.m */,
+				9E15EE4F1C48B15C005FD5A6 /* UIViewController+tracking.h */,
+				9E15EE501C48B15C005FD5A6 /* UIViewController+tracking.m */,
 			);
 			path = bottom;
 			sourceTree = "<group>";
@@ -158,6 +163,7 @@
 				9EC872241C476BF10007F6D9 /* AppDelegate.m in Sources */,
 				9E15EE4E1C4816ED005FD5A6 /* UIButton+xxx.m in Sources */,
 				9EC872211C476BF10007F6D9 /* main.m in Sources */,
+				9E15EE511C48B15C005FD5A6 /* UIViewController+tracking.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
